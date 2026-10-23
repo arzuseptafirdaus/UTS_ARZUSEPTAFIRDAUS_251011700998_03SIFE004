@@ -1,0 +1,187 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:wght@400;600;700;800;900&family=Oswald:wght@500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap');
+
+:root {
+    --nike-bg: #F8F9FA;
+    --nike-card-bg: #FFFFFF;
+    --nike-dark: #111827;
+    --nike-dark-hover: #000000;
+    --nike-subtle: #6B7280;
+    --nike-border: #E5E7EB;
+    --nike-accent: #10B981;
+
+    /* Font Variable Definitions */
+    --font-archivo: 'Archivo Black', sans-serif;
+    --font-oswald: 'Oswald', sans-serif;
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-googlesans: 'Google Sans', 'Plus Jakarta Sans', sans-serif;
+    
+    --font-heading: var(--font-oswald);
+    --font-body: var(--font-googlesans);
+}
+
+/* Custom Utility Classes untuk Pemanggilan Font di Blade */
+.font-oswald { font-family: var(--font-oswald) !important; }
+.font-montserrat { font-family: var(--font-montserrat) !important; }
+.font-googlesans { font-family: var(--font-googlesans) !important; }
+.font-archivo { font-family: var(--font-archivo) !important; }
+
+body {
+    background-color: var(--nike-bg);
+    font-family: var(--font-body);
+    color: var(--nike-dark);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6, 
+.display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
+    font-family: var(--font-heading);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: -0.03em;
+    color: var(--nike-dark);
+}
+
+.font-archivo { font-family: var(--font-archivo) !important; }
+.font-bebas { font-family: var(--font-bebas) !important; }
+.font-blackops { font-family: var(--font-blackops) !important; }
+.font-googlesans { font-family: var(--font-googlesans) !important; }
+.font-montserrat { font-family: var(--font-montserrat) !important; }
+.font-oswald { font-family: var(--font-oswald) !important; }
+.font-roboto { font-family: var(--font-roboto) !important; }
+
+.card-nike {
+    background-color: var(--nike-card-bg);
+    border: 1px solid var(--nike-border);
+    border-radius: 16px;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    overflow: hidden;
+}
+
+.card-nike:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.08);
+    border-color: rgba(17, 24, 39, 0.2);
+}
+
+.btn-nike-dark {
+    background-color: var(--nike-dark);
+    color: #FFFFFF;
+    font-family: var(--font-montserrat);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 12px 28px;
+    border-radius: 50rem;
+    border: none;
+    transition: all 0.2s ease;
+}
+
+.btn-nike-dark:hover {
+    background-color: var(--nike-dark-hover);
+    color: #FFFFFF;
+    transform: scale(1.02);
+}
+
+.badge-nike {
+    font-family: var(--font-googlesans);
+    font-weight: 600;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 6px 14px;
+    border-radius: 50rem;
+    background-color: rgba(17, 24, 39, 0.06);
+    color: var(--nike-dark);
+}
+.hover-text-dark:hover {
+    color: #0A0A0C !important;
+}
+.transition-colors {
+    transition: color 0.2s ease-in-out;
+}
+/* Seamless Hero Infinite Slider */
+.hero-slider-track {
+    display: flex;
+    width: 400%; /* 4 Item (3 Asli + 1 Duplikat Loop) */
+    height: 100%;
+    animation: seamlessSlide 12s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+    will-change: transform;
+}
+
+.hero-slide-item {
+    width: 25%;
+    height: 100%;
+    position: relative;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.hero-slide-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Overlays */
+.hero-overlay-left {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.4) 100%);
+    z-index: 1;
+}
+
+.hero-overlay-right {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(270deg, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.4) 100%);
+    z-index: 1;
+}
+
+.hero-overlay-center {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.65);
+    z-index: 1;
+}
+
+.hero-content-wrapper {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+.hero-title {
+    font-size: clamp(3.8rem, 9.5vw, 9.5rem);
+    line-height: 0.85;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+}
+
+.hero-desc {
+    max-width: 650px;
+    font-weight: 300;
+    font-size: clamp(1rem, 1.8vw, 1.25rem);
+}
+
+@keyframes seamlessSlide {
+    0%, 25% {
+        transform: translateX(0%);
+    }
+    33.33%, 58.33% {
+        transform: translateX(-25%);
+    }
+    66.66%, 91.66% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(-75%);
+    }
+}
