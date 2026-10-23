@@ -12,6 +12,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
+    @include('sportify.components.global-loader-component')
     @include('sportify.layouts.detail-layouts.header')
     <div>
         @yield('content')
