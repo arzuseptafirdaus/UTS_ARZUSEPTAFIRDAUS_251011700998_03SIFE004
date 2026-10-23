@@ -1,12 +1,12 @@
-<!-- Section Brand / Sponsors Grid (10 Logo Gambar - Staggered Layout) -->
+
 <div class="py-5 border-bottom border-light my-2">
     <div class="container">
-        <!-- Subtitle -->
+        
         <p class="text-center font-oswald text-muted small fw-bold text-uppercase tracking-widest mb-5 opacity-75" style="font-size: 0.85rem; letter-spacing: 2.5px;">
             DUKUNG KEGIATAN OLAHRAGA DUNIA BERSAMA
         </p>
         
-        <!-- Baris 1: 5 Logo Brand Utama -->
+        
         <div class="row align-items-center justify-content-center g-4 g-lg-5 text-center mb-4">
             <div class="col-6 col-md-4 col-lg-2">
                 <img src="{{ asset('images/logo-nike.png') }}" 
@@ -40,7 +40,7 @@
             </div>
         </div>
 
-        <!-- Baris 2: 5 Logo Organisasi & Brand Tambahan -->
+        
         <div class="row align-items-center justify-content-center g-4 g-lg-5 text-center">
             <div class="col-6 col-md-4 col-lg-2">
                 <img src="{{ asset('images/logo-under-armour.png') }}" 

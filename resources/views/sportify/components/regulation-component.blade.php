@@ -1,23 +1,23 @@
-<!-- Hero Section Regulation -->
+
 <div class="py-5 bg-white text-dark position-relative overflow-hidden border-bottom border-light">
     <div class="container py-5">
         <div class="row align-items-center g-5">
             <div class="col-lg-8">
-                <!-- Subtitle Badge menggunakan Google Sans -->
+                
                 <span class="font-googlesans fw-bold text-uppercase text-muted small tracking-widest d-block mb-2" style="font-size: 0.75rem; letter-spacing: 2.5px;">
                     SELECTION & REGISTRATION GUIDE
                 </span>
-                <!-- Judul Utama Hero menggunakan Archivo Black -->
+                
                 <h1 class="font-archivo display-4 fw-bold text-uppercase text-dark m-0" style="letter-spacing: -0.5px; line-height: 1.1;">
                     PANDUAN & ATURAN PENDAFTARAN EVENT
                 </h1>
-                <!-- Deskripsi menggunakan Montserrat -->
+                
                 <p class="font-montserrat text-muted lead mt-4 mb-0" style="max-width: 680px; font-size: 1rem; line-height: 1.7;">
                     Sportify merupakan direktori jembatan resmi menuju kompetisi olahraga. Pahami tata cara pengisian formulir kualifikasi awal sebelum berkas Anda diverifikasi oleh tim panitia seleksi.
                 </p>
             </div>
             <div class="col-lg-4">
-                <!-- Info Card -->
+                
                 <div class="p-4 bg-dark text-white rounded-0 border border-dark shadow-sm">
                     <div class="d-flex align-items-center gap-2 mb-2 text-white">
                         <i class="fa-solid fa-circle-info fs-5 opacity-75"></i>
@@ -32,14 +32,14 @@
     </div>
 </div>
 
-<!-- Section 4 Langkah Alur Pendaftaran Internal -->
+
 <div class="py-5 bg-light border-bottom border-light">
     <div class="container py-4">
         <div class="text-center mb-5">
             <span class="font-googlesans fw-bold text-uppercase text-muted small tracking-widest border-bottom border-dark border-2 pb-1 mb-2 d-inline-block" style="font-size: 0.75rem; letter-spacing: 2px;">
                 REGISTRATION WORKFLOW
             </span>
-            <!-- Judul Section menggunakan Archivo Black -->
+            
             <h2 class="display-6 font-archivo text-uppercase text-dark m-0">
                 4 LANGKAH PROSEDUR PENGAJUAN
             </h2>
@@ -49,7 +49,7 @@
         </div>
 
         <div class="row g-4">
-            <!-- Step 1 -->
+            
             <div class="col-md-6 col-lg-3">
                 <div class="p-4 bg-white border border-light rounded-0 shadow-sm h-100 position-relative">
                     <div class="d-flex justify-content-between align-items-start mb-3">
@@ -64,7 +64,7 @@
                 </div>
             </div>
 
-            <!-- Step 2 -->
+            
             <div class="col-md-6 col-lg-3">
                 <div class="p-4 bg-white border border-light rounded-0 shadow-sm h-100 position-relative">
                     <div class="d-flex justify-content-between align-items-start mb-3">
@@ -79,7 +79,7 @@
                 </div>
             </div>
 
-            <!-- Step 3 -->
+            
             <div class="col-md-6 col-lg-3">
                 <div class="p-4 bg-white border border-light rounded-0 shadow-sm h-100 position-relative">
                     <div class="d-flex justify-content-between align-items-start mb-3">
@@ -94,7 +94,7 @@
                 </div>
             </div>
 
-            <!-- Step 4 -->
+            
             <div class="col-md-6 col-lg-3">
                 <div class="p-4 bg-white border border-light rounded-0 shadow-sm h-100 position-relative">
                     <div class="d-flex justify-content-between align-items-start mb-3">
@@ -112,17 +112,17 @@
     </div>
 </div>
 
-<!-- Section Parameter Data Wajib Form -->
+
 <div class="py-5 bg-white border-bottom border-light">
     <div class="container py-4">
         <div class="row g-5 align-items-center">
             
-            <!-- Kolom Kiri: Check-list Parameter -->
+            
             <div class="col-lg-7">
                 <span class="font-googlesans fw-bold text-uppercase text-muted small tracking-widest border-bottom border-dark border-2 pb-1 mb-2 d-inline-block" style="font-size: 0.75rem; letter-spacing: 2px;">
                     REQUIRED DATA & PARAMETERS
                 </span>
-                <!-- Judul Section menggunakan Archivo Black -->
+                
                 <h3 class="display-6 font-archivo text-uppercase text-dark mb-4">
                     KOMPONEN FORMULIR WAJIB
                 </h3>
@@ -166,7 +166,7 @@
                 </div>
             </div>
 
-            <!-- Kolom Kanan: Visual Mockup Card Form Internal -->
+            
             <div class="col-lg-5">
                 <div class="p-4 bg-dark text-white rounded-0 border border-dark shadow-lg">
                     <div class="d-flex justify-content-between align-items-center pb-3 mb-3 border-bottom border-secondary">
@@ -196,7 +196,7 @@
                             <input type="text" class="form-control form-control-sm rounded-0 bg-dark text-white border-secondary" placeholder="Jakarta, Indonesia" disabled>
                         </div>
 
-                        <!-- Checkbox Persetujuan Ketentuan -->
+                        
                         <div class="form-check mb-3">
                             <input class="form-check-input rounded-0 bg-dark border-secondary" type="checkbox" id="agreeCheck" checked disabled>
                             <label class="form-check-label text-white-50" style="font-size: 0.75rem;" for="agreeCheck">
@@ -215,7 +215,7 @@
     </div>
 </div>
 
-<!-- Section Ketentuan & Aturan Validasi -->
+
 <div class="py-5 bg-light">
     <div class="container py-4">
         <div class="row g-4">

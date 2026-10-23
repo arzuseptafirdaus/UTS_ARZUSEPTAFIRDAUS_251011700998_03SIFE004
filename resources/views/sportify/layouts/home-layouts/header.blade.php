@@ -2,17 +2,17 @@
     <nav class="navbar navbar-expand-lg py-3">
         <div class="container">
             
-            <!-- Brand Logo (Dikembalikan ke Font Bebas Neue agar serasi dengan Footer) -->
+            
             <a class="navbar-brand d-flex align-items-center" href="{{ route('home') }}">
                 <span class="font-bebas display-6 fw-bold text-dark tracking-wider m-0" style="letter-spacing: 1.5px;">SPORTIFY</span>
             </a>
 
-            <!-- Mobile Toggle Button -->
+            
             <button class="navbar-toggler border-0 shadow-none rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSportify" aria-controls="navbarSportify" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <!-- Navbar Links Submenu (HANYA INI YANG PAKAI FONT OSWALD) -->
+            
             <div class="collapse navbar-collapse" id="navbarSportify">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-4 font-oswald fw-bold text-uppercase" style="font-size: 0.95rem; letter-spacing: 0.08em;">
                     

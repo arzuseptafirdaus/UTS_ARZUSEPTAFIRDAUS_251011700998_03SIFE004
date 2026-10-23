@@ -1,23 +1,23 @@
-<!-- Hero Section Profile & Help Center -->
+
 <div class="py-5 bg-white text-dark position-relative overflow-hidden border-bottom border-light">
     <div class="container py-5">
         <div class="row align-items-center g-5">
             <div class="col-lg-8">
-                <!-- Subtitle Badge menggunakan Google Sans -->
+                
                 <span class="font-googlesans fw-bold text-uppercase text-muted small tracking-widest d-block mb-2" style="font-size: 0.75rem; letter-spacing: 2.5px;">
                     OFFICIAL OPERATIONAL & SUPPORT HUB
                 </span>
-                <!-- Judul Utama Hero menggunakan Archivo Black -->
+                
                 <h1 class="font-archivo display-4 fw-bold text-uppercase text-dark m-0" style="letter-spacing: -0.5px; line-height: 1.1;">
                     PROFIL LAYANAN & PUSAT BANTUAN
                 </h1>
-                <!-- Deskripsi menggunakan Montserrat -->
+                
                 <p class="font-montserrat text-muted lead mt-4 mb-0" style="max-width: 680px; font-size: 1rem; line-height: 1.7;">
                     Hubungi tim administrasi dan Customer Service resmi Sportify untuk informasi seputar pendaftaran event, kendala teknis, maupun kemitraan direktori olahraga.
                 </p>
             </div>
             <div class="col-lg-4">
-                <!-- Info Status CS -->
+                
                 <div class="p-4 bg-dark text-white rounded-0 border border-dark shadow-sm">
                     <div class="d-flex align-items-center gap-2 mb-2">
                         <span class="d-inline-block bg-success rounded-circle" style="width: 10px; height: 10px;"></span>
@@ -32,14 +32,14 @@
     </div>
 </div>
 
-<!-- Section Contact Person / Admin CS Cards -->
+
 <div class="py-5 bg-light border-bottom border-light">
     <div class="container py-4">
         <div class="text-center mb-5">
             <span class="font-googlesans fw-bold text-uppercase text-muted small tracking-widest border-bottom border-dark border-2 pb-1 mb-2 d-inline-block" style="font-size: 0.75rem; letter-spacing: 2px;">
                 DIRECT CONTACT CHANNELS
             </span>
-            <!-- Judul Section menggunakan Archivo Black -->
+            
             <h2 class="display-6 font-archivo text-uppercase text-dark m-0">
                 KONTAK ADMIN & CUSTOMER SERVICE
             </h2>
@@ -49,7 +49,7 @@
         </div>
 
         <div class="row g-4 justify-content-center">
-            <!-- Card 1: Admin Pendaftaran Event -->
+            
             <div class="col-md-6 col-lg-4">
                 <div class="p-4 bg-white border border-light rounded-0 shadow-sm h-100 d-flex flex-column justify-content-between">
                     <div>
@@ -80,7 +80,7 @@
                 </div>
             </div>
 
-            <!-- Card 2: Customer Support & Technical CS -->
+            
             <div class="col-md-6 col-lg-4">
                 <div class="p-4 bg-white border border-light rounded-0 shadow-sm h-100 d-flex flex-column justify-content-between">
                     <div>
@@ -111,7 +111,7 @@
                 </div>
             </div>
 
-            <!-- Card 3: Kemitraan & Event Organizer -->
+            
             <div class="col-md-6 col-lg-4">
                 <div class="p-4 bg-white border border-light rounded-0 shadow-sm h-100 d-flex flex-column justify-content-between">
                     <div>
@@ -145,7 +145,7 @@
     </div>
 </div>
 
-<!-- Section FAQ (Frequently Asked Questions) -->
+
 <div class="py-5 bg-white border-bottom border-light">
     <div class="container py-4">
         <div class="row g-5 align-items-center">
@@ -153,7 +153,7 @@
                 <span class="font-googlesans fw-bold text-uppercase text-muted small tracking-widest border-bottom border-dark border-2 pb-1 mb-2 d-inline-block" style="font-size: 0.75rem; letter-spacing: 2px;">
                     FREQUENTLY ASKED QUESTIONS
                 </span>
-                <!-- Judul Section menggunakan Archivo Black -->
+                
                 <h3 class="display-6 font-archivo text-uppercase text-dark mb-3">
                     PERTANYAAN UMUM
                 </h3>
@@ -164,7 +164,7 @@
 
             <div class="col-lg-7">
                 <div class="accordion accordion-flush font-montserrat" id="faqAccordion">
-                    <!-- FAQ 1 -->
+                    
                     <div class="accordion-item border border-light mb-2 rounded-0">
                         <h2 class="accordion-header" id="faq1">
                             <button class="accordion-button collapsed font-oswald fw-bold text-dark rounded-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" style="letter-spacing: 0.5px;">
@@ -178,7 +178,7 @@
                         </div>
                     </div>
 
-                    <!-- FAQ 2 -->
+                    
                     <div class="accordion-item border border-light mb-2 rounded-0">
                         <h2 class="accordion-header" id="faq2">
                             <button class="accordion-button collapsed font-oswald fw-bold text-dark rounded-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" style="letter-spacing: 0.5px;">
@@ -192,7 +192,7 @@
                         </div>
                     </div>
 
-                    <!-- FAQ 3 -->
+                    
                     <div class="accordion-item border border-light mb-2 rounded-0">
                         <h2 class="accordion-header" id="faq3">
                             <button class="accordion-button collapsed font-oswald fw-bold text-dark rounded-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" style="letter-spacing: 0.5px;">

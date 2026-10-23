@@ -1,9 +1,9 @@
-<!-- Seamless Infinite Hero Slider (CSS Pure Animation - Anti Patah & Anti Tumpang Tindih) -->
+
 <div class="container-fluid px-0 mb-4 overflow-hidden position-relative" style="height: 540px;">
     
-    <!-- Background Slider Container -->
+    
     <div class="hero-slider-track">
-        <!-- Slide 1 -->
+        
         <div class="hero-slide-item">
             <img src="{{ asset('images/bg-heros1.jpg') }}" alt="Hero 1">
             <div class="hero-overlay-left"></div>
@@ -19,7 +19,7 @@
             </div>
         </div>
 
-        <!-- Slide 2 -->
+        
         <div class="hero-slide-item">
             <img src="{{ asset('images/bg-heros2.jpg') }}" alt="Hero 2">
             <div class="hero-overlay-right"></div>
@@ -35,7 +35,7 @@
             </div>
         </div>
 
-        <!-- Slide 3 -->
+        
         <div class="hero-slide-item">
             <img src="{{ asset('images/bg-heros3.jpg') }}" alt="Hero 3">
             <div class="hero-overlay-center"></div>
@@ -51,7 +51,7 @@
             </div>
         </div>
 
-        <!-- Duplicate Slide 1 (Untuk Seamless Loop Tanpa Patahan) -->
+        
         <div class="hero-slide-item">
             <img src="{{ asset('images/bg-heros1.jpg') }}" alt="Hero 1 Loop">
             <div class="hero-overlay-left"></div>

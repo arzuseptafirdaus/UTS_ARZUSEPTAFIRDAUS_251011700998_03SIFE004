@@ -1,17 +1,17 @@
 <footer class="bg-white border-top border-light mt-5 pt-5 pb-4">
     <div class="container">
         <div class="row g-4 mb-5">
-            <!-- Col 1: Brand Info & Sosmed Icons -->
+            
             <div class="col-lg-4">
                 <a class="d-flex align-items-center gap-2 text-decoration-none mb-3" href="#">
                     <span class="font-bebas display-6 fw-bold text-dark tracking-wider m-0" style="letter-spacing: 1px;">SPORTIFY DIRECTORY</span>
                 </a>
-                <!-- Deskripsi menggunakan Montserrat -->
+                
                 <p class="text-muted font-montserrat small mb-4" style="max-width: 320px; font-size: 0.85rem; line-height: 1.6;">
                     Platform direktori dan informasi kegiatan olahraga modern dengan standar visual interaktif, navigasi modular, serta regulasi lengkap untuk atlet dan komunitas.
                 </p>
                 
-                <!-- List Logo Sosial Media Font Awesome -->
+                
                 <div class="d-flex align-items-center gap-3 fs-4">
                     <a href="#" class="text-dark transition-transform hover-scale" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
                     <a href="#" class="text-dark transition-transform hover-scale" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
@@ -23,11 +23,11 @@
                 </div>
             </div>
 
-            <!-- Col 2: Navigation Links -->
+            
             <div class="col-6 col-lg-2 ms-auto">
-                <!-- Subjudul menggunakan Oswald -->
+                
                 <h6 class="font-oswald fw-bold text-uppercase text-dark mb-3 tracking-wider" style="letter-spacing: 1px;">NAVIGASI UTAMA</h6>
-                <!-- Teks Link menggunakan Montserrat -->
+                
                 <ul class="list-unstyled font-montserrat small" style="font-size: 0.82rem;">
                     <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Home</a></li>
                     <li class="mb-2"><a href="#" class="text-muted text-decoration-none">About Us</a></li>
@@ -37,11 +37,11 @@
                 </ul>
             </div>
 
-            <!-- Col 3: Kategori -->
+            
             <div class="col-6 col-lg-2">
-                <!-- Subjudul menggunakan Oswald -->
+                
                 <h6 class="font-oswald fw-bold text-uppercase text-dark mb-3 tracking-wider" style="letter-spacing: 1px;">KATEGORI</h6>
-                <!-- Teks Link menggunakan Montserrat -->
+                
                 <ul class="list-unstyled font-montserrat small" style="font-size: 0.82rem;">
                     <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Olahraga Tim</a></li>
                     <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Olahraga Raket</a></li>
@@ -50,11 +50,11 @@
                 </ul>
             </div>
 
-            <!-- Col 4: Daftar Olahraga -->
+            
             <div class="col-12 col-lg-4">
-                <!-- Subjudul menggunakan Oswald -->
+                
                 <h6 class="font-oswald fw-bold text-uppercase text-dark mb-3 tracking-wider" style="letter-spacing: 1px;">DAFTAR OLAHRAGA</h6>
-                <!-- Teks Link menggunakan Montserrat -->
+                
                 <div class="row g-1 font-montserrat small text-muted" style="font-size: 0.82rem;">
                     <div class="col-6">
                         <ul class="list-unstyled m-0">
@@ -84,7 +84,7 @@
             </div>
         </div>
 
-        <!-- Giant Framework-Style Branding Footer (Bebas Neue) -->
+        
         <div class="border-top border-light pt-5 pb-3 text-center overflow-hidden">
             <h1 class="font-bebas text-dark fw-black m-0 user-select-none" style="font-size: clamp(5rem, 15vw, 15rem); line-height: 0.85; letter-spacing: 2px; opacity: 0.9;">
                 SPORTIFY

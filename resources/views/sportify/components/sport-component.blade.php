@@ -1,23 +1,23 @@
-<!-- Hero Header Sport Directory -->
+
 <div class="py-5 bg-white text-dark position-relative overflow-hidden border-bottom border-light">
     <div class="container py-4">
         <div class="row align-items-center justify-content-between g-4">
             <div class="col-lg-7">
-                <!-- Subtitle Badge menggunakan Google Sans -->
+                
                 <span class="font-googlesans fw-bold text-uppercase text-muted small tracking-widest d-block mb-2" style="font-size: 0.75rem; letter-spacing: 2.5px;">
                     OFFICIAL DIRECTORY & CATALOG
                 </span>
-                <!-- Judul Utama Hero menggunakan Archivo Black -->
+                
                 <h1 class="font-archivo display-4 fw-bold text-uppercase text-dark m-0" style="letter-spacing: -0.5px; line-height: 1.1;">
                     DIREKTORI CABANG OLAHRAGA
                 </h1>
-                <!-- Deskripsi menggunakan Montserrat -->
+                
                 <p class="font-montserrat text-muted mt-3 mb-0" style="max-width: 620px; font-size: 0.98rem; line-height: 1.7;">
                     Eksplorasi seluruh cabang olahraga resmi, pelajari spesifikasi regulasi, dan ajukan pendaftaran kualifikasi event melalui sistem jembatan Sportify.
                 </p>
             </div>
             <div class="col-lg-4">
-                <!-- Search Box Aktif -->
+                
                 <form action="{{ route('sport') }}" method="GET" class="d-flex">
                     <input type="text" name="search" class="form-control rounded-0 border-dark shadow-none font-montserrat" placeholder="Cari cabang olahraga..." value="{{ request('search') }}">
                     <button class="btn btn-dark rounded-0 font-oswald fw-bold text-uppercase px-3 ms-2" type="submit" style="letter-spacing: 1px;">
@@ -29,7 +29,7 @@
     </div>
 </div>
 
-<!-- Section Filter Kategori -->
+
 <div class="bg-light border-bottom border-light py-3">
     <div class="container">
         <div class="d-flex flex-wrap align-items-center gap-2 font-oswald small">
@@ -43,7 +43,7 @@
     </div>
 </div>
 
-<!-- Section Grid Data Card (Tanpa Pagination) -->
+
 <div class="py-5 bg-white">
     <div class="container py-3">
         
@@ -61,17 +61,17 @@
                                 <span class="font-googlesans fw-bold text-uppercase text-white-50 border-bottom border-white pb-1" style="font-size: 0.75rem; letter-spacing: 1.5px; width: fit-content;">
                                     KATEGORI {{ strtoupper($sport->category) }}
                                 </span>
-                                <!-- Penomoran aman -->
+                                
                                 <span class="font-bebas text-white opacity-50 fs-4">
                                     {{ sprintf('%02d', $index + 1) }}
                                 </span>
                             </div>
                             <div class="text-white">
-                                <!-- Judul Card menggunakan Oswald -->
+                                
                                 <h4 class="font-oswald fw-bold text-uppercase text-white m-0 mb-2" style="font-size: 1.45rem; letter-spacing: 0.5px; line-height: 1.2;">
                                     {{ $sport->name }}
                                 </h4>
-                                <!-- Deskripsi menggunakan Montserrat -->
+                                
                                 <p class="font-montserrat text-white-50 mt-1 mb-3" style="font-size: 0.88rem; line-height: 1.6; max-width: 95%;">
                                     {{ $sport->description }}
                                 </p>

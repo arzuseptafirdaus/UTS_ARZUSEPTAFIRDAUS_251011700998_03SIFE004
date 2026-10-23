@@ -7,19 +7,12 @@ use Illuminate\Http\Request;
 
 class SportController extends Controller
 {
-    /**
-     * Halaman Utama (Home)
-     * Mengambil 4 data event highlight dan merender halaman utama (home-page)
-     */
     public function home()
     {
         $highlightSports = Sport::latest()->take(4)->get();
         return view('sportify.page.home-page', compact('highlightSports'));
     }
 
-    /**
-     * Halaman Katalog Direktori Olahraga (Sport Page)
-     */
    public function index(Request $request)
 {
     $query = Sport::query();
